@@ -1,9 +1,8 @@
 # QuickSort
 
- <ul>
-  <li>Thụt với đầu dòng 1</li>
-  <li>Thụt với đầu dòng 1</li>
- </ul>
+
+ ** 1.Mở đầu **
+ 
 ** ý tưởng : **
 
 tìm 1 phần tử chốt là điểm chính giữa của array (chia đôi array)
