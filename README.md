@@ -36,7 +36,9 @@ Tiếp tục tìm key với từng phần một để sau đó cho ra được k
 * Giải thích *
 
 Tạo một list :   let list = [0,1,4,8,2,6,4,9,10,4,1,2,1] 
-![img](http://imgur.com/KaVl9pb"img")
+
+<img src="http://imgur.com/KaVl9pb">
+
 Trong hàm ta bắt đầu đi tìm key của list 
 
 Đặt 1 biến key với key là phần tử ở chính giữa của list :
