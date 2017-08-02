@@ -1,8 +1,6 @@
 # QuickSort
-QuickSort 
 
-
-ý tưởng :
+*ý tưởng :*
 
 
 tìm 1 phần tử chốt là điểm chính giữa của array (chia đôi array)
