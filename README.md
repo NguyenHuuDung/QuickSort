@@ -9,7 +9,7 @@
 #### ý tưởng:
 
  <ul> Tìm key ,key ở đây được cho là phần tử chính giữa của list .
- Sau khi tìm được key ta tiến hành so sánh key với các phần tử khác trong list, ta chia list đó thành 3 phần (mỗi phần là một list) <li> phần thứ nhất : đây là phần tập hợp của các phần tử nhỏ hơn key </li><li> phần thứ hai : đây là phần tập hợp của các phần tử bằng key </li><li> phần thứ ba : đây là phần tập hợp của các phần tử lớn hơn key </li>.
+ Sau khi tìm được key ta tiến hành so sánh key với các phần tử khác trong list, ta chia list đó thành 3 phần (mỗi phần là một list) <li> phần thứ nhất : đây là phần tập hợp của các phần tử nhỏ hơn key </li><li> phần thứ hai : đây là phần tập hợp của các phần tử bằng key </li><li> phần thứ ba : đây là phần tập hợp của các phần tử lớn hơn key </li>
  
 Sau khi đã phân được 3 phần xong ta tiến hành ghép với nhau vào thành 1 list 
 
