@@ -1,9 +1,9 @@
 # QuickSort
 
 
- ** 1.Mở đầu **
+ ######**1.Mở đầu**
  
-** ý tưởng : **
+**ý tưởng:**
 
 tìm 1 phần tử chốt là điểm chính giữa của array (chia đôi array)
 so sánh phần tử chốt với các phần tử khác trong array 
