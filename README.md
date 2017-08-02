@@ -38,11 +38,17 @@ Tiếp tục tìm key với từng phần một để sau đó cho ra được k
 Tạo một list :   let list = [0,1,4,8,2,6,4,9,10,4,1,2,1] 
 ![img](http://imgur.com/KaVl9pb"img")
 Trong hàm ta bắt đầu đi tìm key của list 
+
 Đặt 1 biến key với key là phần tử ở chính giữa của list :
+
 ` let key = a[a.count/2] `
+
 <img src="http://imgur.com/aIWDbby">
+
 Ta tìm được phần tử key là số 4 ở vị trí chính giữa của list 
+
 Sau khi tìm được key ta tạo ra 3 phần ( 3 list để chứa các phần tử nhỏ hơn , bằng và lớn hơn key) 
+
 Phần nhỏ hơn  đặt tên là less 
 ` let less ` : <img src="http://imgur.com/N31xi9O">
 Phần bằng đặt tên là equal 
