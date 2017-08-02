@@ -2,7 +2,7 @@
 
 ## 1.Mở đầu
 
-** Đây là một ví dụ về QuickSort nhằm giải thích để hiểu rõ hơn về thuật toán này ( được làm bằng ngôn ngữ swift )**
+** Đây là một ví dụ về QuickSort nhằm giải thích để hiểu rõ hơn về thuật toán này ( được làm bằng ngôn ngữ swift ) **
 * Ví dụ : Cho một list các phần tử [0,1,4,8,2,6,4,9,10,4,1,2,1]. Hãy sắp xếp các phần tử trong list theo thứ tự tăng dần (bằng thuật toán QuickSort) 
 
 #### ý tưởng:
