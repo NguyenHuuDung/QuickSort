@@ -45,45 +45,45 @@ Trong hàm ta bắt đầu đi tìm key của list
 
 ` let key = a[a.count/2] `
 
-<img src="http://imgur.com/aIWDbby">
+<img src="http://imgur.com/aIWDbby.png">
 
 Ta tìm được phần tử key là số 4 ở vị trí chính giữa của list 
 
 Sau khi tìm được key ta tạo ra 3 phần ( 3 list để chứa các phần tử nhỏ hơn , bằng và lớn hơn key) 
 
 Phần nhỏ hơn  đặt tên là less 
-` let less ` : <img src="http://imgur.com/N31xi9O">
+` let less ` : <img src="http://imgur.com/N31xi9O.png">
 Phần bằng đặt tên là equal 
-` let equal ` :<img src="http://imgur.com/bGvzLeK">
+` let equal ` :<img src="http://imgur.com/bGvzLeK.png">
 Phần lớn hơn  đặt tên là greater 
-` let greater ` :<img src="http://imgur.com/031Mj7P">
+` let greater ` :<img src="http://imgur.com/031Mj7P.png">
 Tiếp tục tiến hành : ta so sánh key với từng phần tử trong list để tìm ra các phần less, equal và greater 
 Bắt đầu với phần tử đầu tiên :
 
-<img src="http://imgur.com/DAHs41x">
+<img src="http://imgur.com/DAHs41x.png">
 Ta thấy phần tử đầu tiên của list ở đây là số 0 tức là phần tử đầu tiên nhỏ hơn key
 Ta tiến hành lưu phần tử này vào list less 
-<img src="http://imgur.com/H9srpYP">
+<img src="http://imgur.com/H9srpYP.png">
 Tiếp tục đến phần tử thứ 2 :
-<img src="http://imgur.com/YF3S8pu">
+<img src="http://imgur.com/YF3S8pu.png">
 Ta thấy phần tử thứ 2 nhỏ hơn key => lưu nó vào list less 
-<img src="http://imgur.com/c2UdigF">
+<img src="http://imgur.com/c2UdigF.png">
 Tiếp tục với phần tử số 3 :
-<img src="http://imgur.com/69dpHIa">
+<img src="http://imgur.com/69dpHIa.png">
 À phần tử số 3 ta thấy rằng nó bằng với key vậy ta sẽ lưu nó vào list equal 
-<img src="http://imgur.com/4mNIOOV">
+<img src="http://imgur.com/4mNIOOV.png">
 Tiếp tục với phần tử số 4 :
-<img src="http://imgur.com/rI2GJSR">
+<img src="http://imgur.com/rI2GJSR.png">
 Phần tử này có giá trị lớn hơn key => cho nó vào list greater 
-<img src="http://imgur.com/t4GI3uO">
+<img src="http://imgur.com/t4GI3uO.png">
 .
 .
 .
 Tiếp tục cứ như vậy cho đến hết các phần tử trong list ta tìm ra được list less , list equal , list greater 
 
-<img src="http://imgur.com/ZbAnTMf">
-<img src="http://imgur.com/YQzgTiM">
-<img src="http://imgur.com/QgREP5m">
+<img src="http://imgur.com/ZbAnTMf.png">
+<img src="http://imgur.com/YQzgTiM.png">
+<img src="http://imgur.com/QgREP5m.png">
 
 Nhưng hiện tại list less , list equal , list greater vẫn chưa sắp xếp vậy ta tiến hành đệ quy cho chúng theo như trên đã làm với list trùm => xong rồi in ra thôi , gọi ra nhé ` print(quickSort1(a: list)) ` 
 
